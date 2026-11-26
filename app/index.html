@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NusaData — Indonesia in Numbers</title>
+<meta name="description" content="Indonesia's national statistics, clearly presented: economy, population, health, education, employment and every province — with source and year on every figure.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#/">Nusa<em>Data</em></a>
+    <span class="brand-sub">Indonesia in numbers</span>
+    <nav class="main-nav" aria-label="Sections">
+      <a href="#/" data-route="">Overview</a>
+      <a href="#/economy" data-route="economy">Economy</a>
+      <a href="#/population" data-route="population">Population</a>
+      <a href="#/regions" data-route="regions">Regions</a>
+      <a href="#/compare" data-route="compare">Compare</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="app" aria-live="polite"></main>
+
+<footer class="site-footer">
+  <strong>Sources.</strong> Every figure on this site names its source and year.
+  <ul class="source-list">
+    <li>BPS — Statistics Indonesia (national accounts, population, poverty, labour force, HDI), 2023–2024</li>
+    <li>World Bank — World Development Indicators (GDP per capita, infant mortality), 2023–2024</li>
+    <li>Ministry of Finance — government debt, end of 2024</li>
+    <li>Ministry of Health — Indonesian Nutrition Status Survey (SSGI), stunting 2023</li>
+  </ul>
+  <p>Figures are rounded published values. NusaData is an independent presentation of public statistics; it is not affiliated with BPS or the World Bank.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="views.js"></script>
+</body>
+</html>
